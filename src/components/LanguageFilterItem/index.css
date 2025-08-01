@@ -1,1 +1,30 @@
 /* Write your CSS here */
+.bg-languageFilter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 2px;
+}
+
+.btn-style {
+  /* border: none;*/
+  background-color: white;
+  color: #0284c7;
+  border: none;
+  border-radius: 6px;
+  min-width: 50px;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.btn-style-color {
+  /* border: none;*/
+  background-color: white;
+  color: #0284c7;
+  border-color: #0284c7;
+  border-radius: 6px;
+  min-width: 50px;
+  padding: 2px;
+  font-size: 20px;
+}

@@ -1,1 +1,32 @@
 /* Write your CSS here */
+.image-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.bg-git-repo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: aliceblue;
+  width: 250px;
+  margin: 0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.bg-git-repo h1 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.bg-git-repo p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #333;
+}
